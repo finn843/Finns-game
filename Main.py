@@ -351,7 +351,7 @@ while running:
         elif enemyX[i] >= 736:
             enemyX_change[i] = -3.5
             enemyY[i] += enemyY_change[i]
-
+        # Brians comment
         # Collision detection
         collision = iscollision(bulletX, bulletY, enemyX[i], enemyY[i])
         if collision:
